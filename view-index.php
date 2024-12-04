@@ -3,7 +3,7 @@
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="..." class="img-fluid rounded-start" alt="...">
+            <img src="ACX_SquareLogo2.png" class="img-fluid rounded-start">
           </div>
           <div class="col-md-8">
             <div class="card-body">
