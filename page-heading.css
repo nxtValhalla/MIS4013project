@@ -8,6 +8,6 @@
   line-height: 1.2;
   margin-bottom: 20px;
   background: linear-gradient(45deg, #001d24, #097976, #001d24);
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 255, 255, 0.5); /* Glow effect */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8), 0 0 25px rgba(0, 255, 255, 0.8); /* Bright glow */
 }
 
