@@ -1,6 +1,6 @@
 /* Custom styles for header */
 .hero {
-  height: 50vh; /* Hero section height */
+  height: 100vh; /* Hero section height */
   display: flex;
   flex-direction: column;
   justify-content: center;
