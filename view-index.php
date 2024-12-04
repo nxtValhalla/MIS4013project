@@ -16,6 +16,6 @@
       </div>
 <div class="container mt-5">
   <div class="text-center">
-    <p>Welcome to ACX Handle Fitness! Explore our programs and meet our expert trainers.</p>
+    <p>Explore our programs and meet our expert trainers!</p>
   </div>
 </div>
