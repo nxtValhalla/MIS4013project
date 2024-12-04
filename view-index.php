@@ -1,5 +1,5 @@
 <div class="hero">
-      <h1 class="display-4">About Us</h1>
+      <h1 class="display-2">About Us</h1>
       <div class="card mb-3" style="max-width: 70%;">
         <div class="row g-0">
           <div class="col-md-3">
