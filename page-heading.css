@@ -7,6 +7,6 @@
   text-transform: uppercase;
   line-height: 1.2;
   margin-bottom: 20px;
-  background-color: #0052ff;
+  background: linear-gradient(45deg, #001d24, #097976, #0052ff);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
