@@ -1,7 +1,7 @@
 <style>
       /* Custom styles for header */
       .hero {
-        background: url('your-stock-image.jpg') no-repeat center center/cover;
+        background: url('GymBackground.jpg') no-repeat center center/cover;
         height: 50vh;
         display: flex;
         justify-content: center;
