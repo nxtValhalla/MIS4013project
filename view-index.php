@@ -1,6 +1,6 @@
 <div class="hero">
       <h1 class="display-4">About Us</h1>
-      <div class="card mb-3" style="max-width: 80%;">
+      <div class="card mb-3" style="max-width: 600px;">
         <div class="row g-0">
           <div class="col-md-4">
             <img src="ACX_SquareLogo2.png" class="img-fluid rounded-start">
