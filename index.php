@@ -2,6 +2,7 @@
 $pageTitle = "Home Page";
 include "view-header.php";
 ?>
+    <link rel="stylesheet" href="page-heading.css">
     <h1>Welcome to ACX Handle Fitness</h1>
 <?php
 include "view-index.php";
