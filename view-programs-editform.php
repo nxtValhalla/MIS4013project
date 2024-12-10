@@ -18,35 +18,35 @@
         <form method="post" action="">
           <div class="mb-3">
             <label for="programName<?php echo $program['ProgramID'];?>" class="form-label">Program Name</label>
-            <input type="text" class="form-control" id="programName<?php echo $program['ProgramID'];?>" name="programName" value="<?php echo $trainer['ProgramName'];?>">
+            <input type="text" class="form-control" id="programName<?php echo $program['ProgramID'];?>" name="programName" value="<?php echo $program['ProgramName'];?>">
           </div>
           <div class="mb-3">
             <label for="duration<?php echo $program['ProgramID'];?>" class="form-label">Duration (in Weeks)</label>
-            <input type="text" class="form-control" id="duration<?php echo $program['ProgramID'];?>" name="duration" value="<?php echo $trainer['Duration'];?>">
+            <input type="text" class="form-control" id="duration<?php echo $program['ProgramID'];?>" name="duration" value="<?php echo $program['Duration'];?>">
           </div>
           <div class="mb-3">
             <label for="diffLevel<?php echo $program['ProgramID'];?>" class="form-label">Difficulty Level (1-7)</label>
-            <input type="text" class="form-control" id="diffLevel<?php echo $program['ProgramID'];?>" name="diffLevel" value="<?php echo $trainer['DifficultyLevel'];?>">
+            <input type="text" class="form-control" id="diffLevel<?php echo $program['ProgramID'];?>" name="diffLevel" value="<?php echo $program['DifficultyLevel'];?>">
           </div>
           <div class="mb-3">
             <label for="intensity<?php echo $program['ProgramID'];?>" class="form-label">Intensity (1-7)</label>
-            <input type="text" class="form-control" id="intensity<?php echo $program['ProgramID'];?>" name="intensity" value="<?php echo $trainer['Intensity'];?>">
+            <input type="text" class="form-control" id="intensity<?php echo $program['ProgramID'];?>" name="intensity" value="<?php echo $program['Intensity'];?>">
           </div>
           <div class="mb-3">
             <label for="daysPerWeek<?php echo $program['ProgramID'];?>" class="form-label">Days Per Week</label>
-            <input type="text" class="form-control" id="daysPerWeek<?php echo $program['ProgramID'];?>" name="daysPerWeek" value="<?php echo $trainer['DaysPerWeek'];?>">
+            <input type="text" class="form-control" id="daysPerWeek<?php echo $program['ProgramID'];?>" name="daysPerWeek" value="<?php echo $program['DaysPerWeek'];?>">
           </div>
           <div class="mb-3">
             <label for="programDescription<?php echo $program['ProgramID'];?>" class="form-label">Program Description</label>
-            <input type="text" class="form-control" id="programDescription<?php echo $program['ProgramID'];?>" name="programDescription" value="<?php echo $trainer['ProgramDescription'];?>">
+            <input type="text" class="form-control" id="programDescription<?php echo $program['ProgramID'];?>" name="programDescription" value="<?php echo $program['ProgramDescription'];?>">
           </div>
           <div class="mb-3">
             <label for="trainerID<?php echo $program['ProgramID'];?>" class="form-label">Trainer ID</label>
-            <input type="text" class="form-control" id="trainerID<?php echo $program['ProgramID'];?>" name="trainerID" value="<?php echo $trainer['TrainerID'];?>">
+            <input type="text" class="form-control" id="trainerID<?php echo $program['ProgramID'];?>" name="trainerID" value="<?php echo $program['TrainerID'];?>">
           </div>
           <div class="mb-3">
             <label for="gymID<?php echo $program['ProgramID'];?>" class="form-label">Gym ID</label>
-            <input type="text" class="form-control" id="gymID<?php echo $program['ProgramID'];?>" name="gymID" value="<?php echo $trainer['GymID'];?>">
+            <input type="text" class="form-control" id="gymID<?php echo $program['ProgramID'];?>" name="gymID" value="<?php echo $program['GymID'];?>">
           </div>
             <input type="hidden" name="programID" value="<?php echo $program['ProgramID'];?>">
             <input type="hidden" name="actionType" value="Edit">
