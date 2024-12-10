@@ -10,6 +10,7 @@ include "view-header.php";
     <link rel="stylesheet" href="page-heading.css">
     <link rel="stylesheet" href="content-box.css">
     <link rel="stylesheet" href="sticky-header.css">
+    <h1 class="page-header">Gym Address</h1>
 
 <?php
 $addressbyprogram = selectAddressByProgram($_POST['programID']);
