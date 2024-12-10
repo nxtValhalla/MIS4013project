@@ -30,7 +30,7 @@
           </div>
           <div class="mb-3">
             <label for="phone<?php echo $trainer['TrainerID'];?>" class="form-label">Phone</label>
-            <input type="text" class="form-control" id="phone<?php echo $trainer['TrainerID'];?>" name="phone" value="<?php echo $trainer['Phone'];?>">
+            <input type="text" class="form-control" id="phone<?php echo $trainer['TrainerID'];?>" name="phone" oninput="formatPhoneNumber(this)" value="<?php echo $trainer['Phone'];?>">
           </div>
             <input type="hidden" name="trainerid" value="<?php echo $trainer['TrainerID'];?>">
             <input type="hidden" name="actionType" value="Edit">
