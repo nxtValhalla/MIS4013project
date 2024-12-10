@@ -1,4 +1,7 @@
 <?php
+require_once("util-db.php");
+require_once("model-programs.php");
+
 $pageTitle = "Programs";
 include "view-header.php";
 ?>
