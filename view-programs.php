@@ -16,10 +16,10 @@
       while ($program = $programs->fetch_assoc()){
       ?>
         <tr>
-          <td><?php echo $$program['ProgramID']; ?></td>
-          <td><?php echo $$program['ProgramName']; ?></td>
-          <td><?php echo $$program['Duration']; ?></td>
-          <td><?php echo $$program['ProgramDescription']; ?></td>
+          <td><?php echo $program['ProgramID']; ?></td>
+          <td><?php echo $program['ProgramName']; ?></td>
+          <td><?php echo $program['Duration']; ?></td>
+          <td><?php echo $program['ProgramDescription']; ?></td>
           <td>
             <?php
             include "view-programs-editform.php";
