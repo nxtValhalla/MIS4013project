@@ -1,9 +1,9 @@
 <div class="hero">
       <div class="row mb-3 d-flex align-items-center">
-            <div class="col d-flex justify-content-start align-items-center">
+            <div class="col-6 d-flex justify-content-start align-items-center">
                   <h2>View Our Programs!</h2>
             </div>
-            <div class="col d-flex justify-content-end align-items-center">
+            <div class="col-6 d-flex justify-content-end align-items-center">
                   <h2 class="ms-3">Add a New Program</h2>
                   <?php include "view-programs-addform.php"; ?>
             </div>
