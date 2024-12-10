@@ -42,7 +42,11 @@
           </div>
           <div class="mb-3">
             <label for="trainerID" class="form-label">Trainer ID</label>
-            <input type="text" class="form-control" id="trainerID" name="trainerID">
+<?php
+$trainerList = selectTrainersForInput();
+$selectedTrainer = 0;
+include "view-trainer-input-list.php";
+?>
           </div>
           <div class="mb-3">
             <label for="gymID" class="form-label">Gym ID</label>
