@@ -16,7 +16,7 @@ function selectTrainers() {
 function selectProgramsByTrainer($TrainerID) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT t.TrainerID, TrainerName, Specialization, ProgramID, ProgramName, ProgramDescription FROM project.trainer t join project.program p on t.TrainerID = p.TrainerID WHERE t.TrainerID = ?");
+        $stmt = $conn->prepare("SELECT t.TrainerID, TrainerName, Specialization, ProgramID, ProgramName, Duration, DifficultyLevel, Intensity, DaysPerWeek, ProgramDescription FROM project.trainer t join project.program p on t.TrainerID = p.TrainerID WHERE t.TrainerID = ?");
         $stmt->bind_param("i", $TrainerID);
         $stmt->execute();
         $result = $stmt->get_result();
