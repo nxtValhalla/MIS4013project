@@ -17,7 +17,7 @@
                               <li class="list-group-item"><strong>Phone:</strong> <?php echo $trainer['Phone']; ?></li>
                           </ul>
                           <div class="card-body">
-                              <a href="#" class="card-link">Card link</a>
+                              <a href="mailto:<?php echo $trainer['Email']; ?>" class="card-link">Send an Email</a>
                               <a href="#" class="card-link">Another link</a>
                           </div>
                         </div>
