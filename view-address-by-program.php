@@ -1,4 +1,4 @@
-<div class="hero" style="height: auto;">
+<div class="hero hero-auto">
   <h1>Gym Name and Address</h1>
   <div class="table-responsive">
     <table class="table">
