@@ -5,7 +5,6 @@
             </div>
             <div class="col d-flex justify-content-end align-items-center">
                   <h2 class="ms-3">Add a New Program</h2>
-                  </br>
                   <?php include "view-programs-addform.php"; ?>
             </div>
       </div>
