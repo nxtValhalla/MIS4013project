@@ -42,16 +42,16 @@
                   <h5 class="mt-3">Description</h5>
                   <p><?php echo htmlspecialchars($program['ProgramDescription']); ?></p>
                   <div class="row text-start">
-                        <div>
+                        <div class="col-md-4">
                               <form action="address-by-program.php" method="POST">
                                 <input type="hidden" name="programID" value="<?php echo $program['ProgramID']; ?>">
                                 <button type="submit" class="btn btn-primary">Gym Address</button>
                               </form>
                         </div>
-                        <div>
+                        <div class="col-md-4">
                               <?php include "view-programs-editform.php"; ?>
                         </div>
-                        <div>
+                        <div class="col-md-4">
                               <form method="post" action="">
                               <input type="hidden" name="programID" value="<?php echo $program['ProgramID'];?>">
                               <input type="hidden" name="actionType" value="Delete">
