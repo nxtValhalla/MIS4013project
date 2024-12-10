@@ -1,7 +1,7 @@
 <div class="hero">
       <div class="row mb-3 d-flex align-items-center">
             <div class="col d-flex justify-content-start align-items-center">
-                  <h1>View Our Programs!</h1>
+                  <h2>View Our Programs!</h2>
             </div>
             <div class="col d-flex justify-content-end align-items-center">
                   <?php include "view-programs-addform.php"; ?>
@@ -41,6 +41,7 @@
                   </div>
                   <h5 class="mt-3">Description</h5>
                   <p><?php echo htmlspecialchars($program['ProgramDescription']); ?></p>
+                  <?php include "view-programs-editform.php"; ?>
                   <form method="post" action="">
                         <input type="hidden" name="programID" value="<?php echo $program['ProgramID'];?>">
                         <input type="hidden" name="actionType" value="Delete">
