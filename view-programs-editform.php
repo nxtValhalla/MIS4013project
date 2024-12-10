@@ -50,7 +50,11 @@ include "view-trainer-input-list.php";
           </div>
           <div class="mb-3">
             <label for="gymID<?php echo $program['ProgramID'];?>" class="form-label">Gym ID</label>
-            <input type="text" class="form-control" id="gymID<?php echo $program['ProgramID'];?>" name="gymID" value="<?php echo $program['GymID'];?>">
+<?php
+$gymList = selectGymsForInput();
+$selectedGym = $program['GymID'];
+include "view-gym-input-list.php";
+?>
           </div>
             <input type="hidden" name="programID" value="<?php echo $program['ProgramID'];?>">
             <input type="hidden" name="actionType" value="Edit">
