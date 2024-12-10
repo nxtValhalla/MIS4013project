@@ -1,4 +1,13 @@
 <div class="hero">
+      <div class="row mb-3 d-flex align-items-center">
+            <div class="col d-flex justify-content-start align-items-center">
+                  <h1>View Our Programs!</h1>
+            </div>
+            <div class="col d-flex justify-content-end align-items-center">
+                  <?php include "view-programs-addform.php"; ?>
+                  <h2 class="ms-3">Add a New Program</h2>
+            </div>
+      </div>
       <div class="accordion" id="accordionExample">
         <?php
         $counter = 1;
