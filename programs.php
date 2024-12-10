@@ -10,6 +10,7 @@ include "view-header.php";
     <link rel="stylesheet" href="content-box.css">
     <link rel="stylesheet" href="sticky-header.css">
     <link rel="stylesheet" href="program-accordion.css">
+    <link rel="stylesheet" href="modal-label.css">
     <h1 class="page-header">Programs</h1>
 <?php
 if (isset($_POST['actionType'])) {
