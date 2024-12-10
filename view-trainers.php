@@ -24,5 +24,10 @@
                   </div>
                   <?php } ?>
             </div>
+            <div class="container-fluid mt-5">
+            <div class="text-center">
+                <p>Check out our <a href="https://www.instagram.com/acxhandlefitness/">Instagram</a> to stay updated with our content!</a>!</p>
+            </div>
+      </div>
       </div>
 </div>
