@@ -1,11 +1,11 @@
 <div class="hero">
       <div class="container my-4">
-            <div class="row">
+            <div class="row justify-content-center">
                   <?php
                   while ($trainer = $trainers->fetch_assoc()){
                   ?>
-                  <div class="col-md-4 mb-4">
-                        <div class="card" style="width: 18rem;">
+                  <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card mx-auto" style="width: 18rem;">
                           <img src="..." class="card-img-top" alt="...">
                           <div class="card-body">
                               <h5 class="card-title"><?php echo $trainer['TrainerName']; ?></h5>
