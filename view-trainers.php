@@ -24,7 +24,7 @@
                               <li class="list-group-item"><strong>Email:</strong> <?php echo '<a href="mailto:' . htmlspecialchars($trainer['Email']) . '">' . htmlspecialchars($trainer['Email']) . '</a>';?></li>
                               <li class="list-group-item"><strong>Phone:</strong> <?php echo $trainer['Phone']; ?></li>
                           </ul>
-                        <div class="row text-start align-items-center justify-content-center">
+                        <div class="row text-start align-items-center">
                               <div class="col-md-4">
                                     <a href="programs-by-trainer.php?trainerid=<?php echo $trainer['TrainerID']; ?>">Programs</a>
                               </div>
