@@ -29,8 +29,8 @@
             <input type="text" class="form-control" id="email" name="email">
           </div>
           <div class="mb-3">
-            <label for="phone" class="form-label">Phone (xxx) xxx-xxxx</label>
-            <input type="text" class="form-control" id="phone" name="phone">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="text" class="form-control" id="phone" name="phone" oninput="formatPhoneNumber(this)">
           </div>
             <input type="hidden" name="actionType" value="Add">
           <button type="submit" class="btn btn-primary">Add</button>
