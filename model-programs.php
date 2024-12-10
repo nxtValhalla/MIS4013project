@@ -27,6 +27,20 @@ function selectTrainersForInput() {
     }
 }
 
+function selectGymsForInput() {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("SELECT GymID, GymName FROM project.gym ORDER BY GymName;");
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $conn->close();
+        return $result;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
 function insertProgram($programName, $duration, $diffLevel, $intensity, $daysPerWeek, $programDescription, $trainerID, $gymID) {
     try {
         $conn = get_db_connection();
