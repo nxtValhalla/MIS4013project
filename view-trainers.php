@@ -25,7 +25,7 @@
                               <li class="list-group-item"><strong>Phone:</strong> <?php echo $trainer['Phone']; ?></li>
                           </ul>
                           <div class="card-body">
-                              <?php include "view-trainers-addform.php"; ?>
+                              <?php include "view-trainers-editform.php"; ?>
                               <form method="post" action="">
                                 <input type="hidden" name="trainerid" value="<?php echo $trainer['TrainerID'];?>">
                                 <input type="hidden" name="actionType" value="Delete">
