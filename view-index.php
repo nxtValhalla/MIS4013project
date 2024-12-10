@@ -20,7 +20,7 @@
       </div>
       <div class="container-fluid mt-5">
             <div class="text-center">
-                <p>Explore our programs and meet our expert trainers!</p>
+                <p>Explore our <a href="programs.php">programs</a> and meet our expert <a href="trainers.php">trainers</a>!</p>
             </div>
       </div>
 </div>
