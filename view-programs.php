@@ -4,8 +4,8 @@
                   <h2>View Our Programs!</h2>
             </div>
             <div class="col d-flex justify-content-end align-items-center">
-                  <?php include "view-programs-addform.php"; ?>
                   <h2 class="ms-3">Add a New Program</h2>
+                  <?php include "view-programs-addform.php"; ?>
             </div>
       </div>
       <div class="accordion" id="accordionExample">
