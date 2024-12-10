@@ -19,7 +19,9 @@
       </div>
       <div class="container-fluid mt-5">
             <div class="text-center">
-                <p>Explore our <a href="programs.php">programs</a> and meet our expert <a href="trainers.php">trainers</a>!</p>
+                <p style = "font-size: 1.5rem;">
+                      Explore our <a href="programs.php">programs</a> and meet our expert <a href="trainers.php">trainers</a>!
+                </p>
             </div>
       </div>
 </div>
