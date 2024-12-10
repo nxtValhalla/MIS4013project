@@ -39,6 +39,7 @@ if (isset($_POST['actionType'])) {
 }
 
 $trainers = selectTrainers();
+include "js-format-phone.php";
 include "view-trainers.php";
 include "view-footer.php";
 ?>
