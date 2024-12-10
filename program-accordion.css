@@ -4,5 +4,17 @@
 }
 
 .accordion-body {
+  background-color: #f9f9f9; /* Light background */
+  padding: 1.5rem;
+  border-radius: 5px;
   word-wrap: break-word; /* Ensures long words or URLs wrap to the next line */
+}
+
+.accordion-body h5 {
+  color: #2c3e50; /* Darker text for headings */
+  font-weight: bold;
+}
+
+.accordion-body p {
+  margin-bottom: 0.5rem;
 }
