@@ -2,7 +2,7 @@
 function selectPrograms() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT ProgramID, ProgramName, Duration, DifficultyLevel, Intensity, DaysPerWeek, ProgramDescription FROM project.program;");
+        $stmt = $conn->prepare("SELECT ProgramID, ProgramName, Duration, DifficultyLevel, Intensity, DaysPerWeek, ProgramDescription, TrainerID, GymID FROM project.program;");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
