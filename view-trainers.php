@@ -26,7 +26,7 @@
                           </ul>
                         <div class="row text-start">
                               <div class="col-md-4">
-                                    <a href="programs-by-trainer.php?trainerid=<?php echo $trainer['TrainerID']; ?>">View Programs</a>
+                                    <a href="programs-by-trainer.php?trainerid=<?php echo $trainer['TrainerID']; ?>">Programs</a>
                               </div>
                               <div class="col-md-4">
                                     <?php include "view-trainers-editform.php"; ?>
