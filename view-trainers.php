@@ -13,7 +13,7 @@
                           </div>
                           <ul class="list-group list-group-flush">
                               <li class="list-group-item"><strong>Specialization:</strong> <?php echo $trainer['Specialization']; ?></li>
-                              <li class="list-group-item"><strong>Email:</strong> <a href="mailto:<?php echo $trainer['Email']; ?>" class="card-link"><?php echo $trainer['Email']; ?></a></li>
+                              <li class="list-group-item"><strong>Email:</strong> <?php echo '<a href="mailto:' . htmlspecialchars($trainer['Email']) . '">' . htmlspecialchars($trainer['Email']) . '</a>';?></li>
                               <li class="list-group-item"><strong>Phone:</strong> <?php echo $trainer['Phone']; ?></li>
                           </ul>
                           <div class="card-body">
