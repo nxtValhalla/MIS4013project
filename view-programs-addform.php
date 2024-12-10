@@ -51,7 +51,7 @@ include "view-trainer-input-list.php";
           <div class="mb-3">
             <label for="gymID" class="form-label">Gym ID</label>
 <?php
-$gymList = selectGymssForInput();
+$gymList = selectGymsForInput();
 $selectedGym = 0;
 include "view-gym-input-list.php";
 ?>
