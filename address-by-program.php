@@ -4,6 +4,7 @@ require_once("model-address-by-program.php");
 
 $pageTitle = "Gym Address by Program";
 include "view-header.php";
+$addressbyprogram = selectAddressByProgram($_POST['programID']);
 ?>
 
     <link rel="stylesheet" href="background-image.css">
@@ -13,7 +14,6 @@ include "view-header.php";
     <h1 class="page-header">Gym Address For <?php echo $addressbyprogram['ProgramName']; ?></h1>
 
 <?php
-$addressbyprogram = selectAddressByProgram($_POST['programID']);
 include "view-address-by-program.php";
 include "view-footer.php";
 ?>
