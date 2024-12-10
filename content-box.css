@@ -11,6 +11,11 @@
   margin-right: 15%;
 }
 
+.hero-auto {
+  min-height: none;
+  height: auto;
+}
+
 /* Optional: Overlay on hero section for better readability */
 .hero::before {
   content: '';
