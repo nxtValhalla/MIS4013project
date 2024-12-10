@@ -22,15 +22,15 @@
           </div>
           <div class="mb-3">
             <label for="spec<?php echo $trainer['TrainerID'];?>" class="form-label">Specialization</label>
-            <input type="text" class="form-control" id="spec<?php echo $trainer['TrainerID'];?>" name="spec" value="<?php echo $trainer['TrainerID'];?>">
+            <input type="text" class="form-control" id="spec<?php echo $trainer['TrainerID'];?>" name="spec" value="<?php echo $trainer['Specialization'];?>">
           </div>
           <div class="mb-3">
             <label for="email<?php echo $trainer['TrainerID'];?>" class="form-label">Email</label>
-            <input type="text" class="form-control" id="email<?php echo $trainer['TrainerID'];?>" name="email" value="<?php echo $trainer['TrainerID'];?>">
+            <input type="text" class="form-control" id="email<?php echo $trainer['TrainerID'];?>" name="email" value="<?php echo $trainer['Email'];?>">
           </div>
           <div class="mb-3">
             <label for="phone<?php echo $trainer['TrainerID'];?>" class="form-label">Phone</label>
-            <input type="text" class="form-control" id="phone<?php echo $trainer['TrainerID'];?>" name="phone" value="<?php echo $trainer['TrainerID'];?>">
+            <input type="text" class="form-control" id="phone<?php echo $trainer['TrainerID'];?>" name="phone" value="<?php echo $trainer['Phone'];?>">
           </div>
             <input type="hidden" name="trainerid" value="<?php echo $trainer['TrainerID'];?>">
             <input type="hidden" name="actionType" value="Edit">
