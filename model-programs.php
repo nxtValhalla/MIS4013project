@@ -25,11 +25,11 @@ function insertProgram($programName, $duration, $diffLevel, $intensity, $daysPer
         throw $e;
     }
 }
-function updateProgram($programName, $duration, $diffLevel, $intensity, $daysPerWeek, $programDescription, $trainerID, $gymID, $programid) {
+function updateProgram($programName, $duration, $diffLevel, $intensity, $daysPerWeek, $programDescription, $trainerID, $gymID, $programID) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("UPDATE project.program set ProgramName = ?, Duration = ?, DifficultyLevel = ?, Intensity = ?, DaysPerWeek = ?, ProgramDescription = ?, TrainerID = ?, GymID = ? WHERE ProgramID = ?");
-        $stmt->bind_param("siiiisiii", $programName, $duration, $diffLevel, $intensity, $daysPerWeek, $programDescription, $trainerID, $gymID, $programid);
+        $stmt->bind_param("siiiisiii", $programName, $duration, $diffLevel, $intensity, $daysPerWeek, $programDescription, $trainerID, $gymID, $programID);
         $success = $stmt->execute();
         $conn->close();
         return $success;
@@ -38,11 +38,11 @@ function updateProgram($programName, $duration, $diffLevel, $intensity, $daysPer
         throw $e;
     }
 }
-function deleteProgram($programid) {
+function deleteProgram($programID) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("DELETE FROM project.program WHERE ProgramID = ?");
-        $stmt->bind_param("i", $programid);
+        $stmt->bind_param("i", $programID);
         $success = $stmt->execute();
         $conn->close();
         return $success;
