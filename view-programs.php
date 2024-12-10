@@ -1,5 +1,5 @@
 <div class="hero">
-      <div class="row mb-3 d-flex align-items-center">
+      <div class="row mb-3">
             <div class="col-6 d-flex justify-content-start align-items-center">
                   <h2>View Our Programs!</h2>
             </div>
