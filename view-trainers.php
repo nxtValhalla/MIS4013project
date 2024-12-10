@@ -5,8 +5,8 @@
                   <h2>Contact Us!</h2>
                 </div>
                 <div class="col d-flex justify-content-end align-items-center">
-                  <?php include "view-trainers-addform.php"; ?>
                   <h2 class="ms-3">Add a New Trainer</h2>
+                  <?php include "view-trainers-addform.php"; ?>
                 </div>
             </div>
             <div class="row justify-content-center">
