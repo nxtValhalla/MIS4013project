@@ -11,6 +11,10 @@
   margin-right: 15%;
 }
 
+.hero p {
+  font-size: 1.5rem;
+}
+
 /* Optional: Overlay on hero section for better readability */
 .hero::before {
   content: '';
