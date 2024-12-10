@@ -41,6 +41,10 @@
                   </div>
                   <h5 class="mt-3">Description</h5>
                   <p><?php echo htmlspecialchars($program['ProgramDescription']); ?></p>
+                  <form action="address-by-program.php" method="POST">
+                    <input type="hidden" name="programID" value="<?php echo $program['ProgramID']; ?>">
+                    <button type="submit" class="btn btn-primary">Gym Address</button>
+                  </form>
                   <?php include "view-programs-editform.php"; ?>
                   <form method="post" action="">
                         <input type="hidden" name="programID" value="<?php echo $program['ProgramID'];?>">
