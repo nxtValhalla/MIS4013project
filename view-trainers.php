@@ -2,7 +2,7 @@
       <div class="container my-4">
             <div class="row mb-3 d-flex align-items-center">
                 <div class="col d-flex justify-content-start align-items-center">
-                  <h1>Contact Us!</h1>
+                  <h2>Contact Us!</h2>
                 </div>
                 <div class="col d-flex justify-content-end align-items-center">
                   <?php include "view-trainers-addform.php"; ?>
