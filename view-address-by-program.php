@@ -1,3 +1,4 @@
+<h1 class="page-header">Gym Address For <?php echo $addressbyprogram['ProgramName']; ?></h1>
 <div class="hero">
   <h1>Gym Name and Address</h1>
   <div class="table-responsive">
