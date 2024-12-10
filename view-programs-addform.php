@@ -50,7 +50,11 @@ include "view-trainer-input-list.php";
           </div>
           <div class="mb-3">
             <label for="gymID" class="form-label">Gym ID</label>
-            <input type="text" class="form-control" id="gymID" name="gymID">
+<?php
+$gymList = selectGymssForInput();
+$selectedGym = 0;
+include "view-gym-input-list.php";
+?>
           </div>
             <input type="hidden" name="actionType" value="Add">
           <button type="submit" class="btn btn-primary">Add</button>
