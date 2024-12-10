@@ -44,7 +44,7 @@
             <label for="trainerID<?php echo $program['ProgramID'];?>" class="form-label">Trainer ID</label>
 <?php
 $trainerList = selectTrainersForInput();
-$selectedTrainer = <?php echo $program['TrainerID'];?>;
+$selectedTrainer = $program['TrainerID'];
 include "view-trainer-input-list.php";
 ?>
           </div>
