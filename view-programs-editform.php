@@ -42,7 +42,11 @@
           </div>
           <div class="mb-3">
             <label for="trainerID<?php echo $program['ProgramID'];?>" class="form-label">Trainer ID</label>
-            <input type="text" class="form-control" id="trainerID<?php echo $program['ProgramID'];?>" name="trainerID" value="<?php echo $program['TrainerID'];?>">
+<?php
+$trainerList = selectTrainersForInput();
+$selectedTrainer = <?php echo $program['TrainerID'];?>;
+include "view-trainer-input-list.php";
+?>
           </div>
           <div class="mb-3">
             <label for="gymID<?php echo $program['ProgramID'];?>" class="form-label">Gym ID</label>
