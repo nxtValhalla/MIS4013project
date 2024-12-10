@@ -33,7 +33,9 @@
             </div>
             <div class="container-fluid mt-5">
             <div class="text-center">
-                <p>Check out our <a href="https://www.instagram.com/acxhandlefitness/" target="_blank">Instagram</a> to stay updated with our content!</a>!</p>
+                <p style = "font-size: 2rem;">
+                      Check out our <a href="https://www.instagram.com/acxhandlefitness/" target="_blank">Instagram</a> to stay updated with our content!
+                </p>
             </div>
       </div>
       </div>
