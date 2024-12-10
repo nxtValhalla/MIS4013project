@@ -17,36 +17,20 @@
       <div class="modal-body">
         <form method="post" action="">
           <div class="mb-3">
-            <label for="programName" class="form-label">Program Name</label>
-            <input type="text" class="form-control" id="programName" name="programName">
+            <label for="trainerName" class="form-label">Trainer Name</label>
+            <input type="text" class="form-control" id="trainerName" name="trainerName">
           </div>
           <div class="mb-3">
-            <label for="duration" class="form-label">Duration (in Weeks)</label>
-            <input type="text" class="form-control" id="duration" name="duration">
+            <label for="spec" class="form-label">Specialization</label>
+            <input type="text" class="form-control" id="spec" name="spec">
           </div>
           <div class="mb-3">
-            <label for="diffLevel" class="form-label">Difficulty Level (1-7)</label>
-            <input type="text" class="form-control" id="diffLevel" name="diffLevel">
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" name="email">
           </div>
           <div class="mb-3">
-            <label for="intensity" class="form-label">Intensity (1-7)</label>
-            <input type="text" class="form-control" id="intensity" name="intensity">
-          </div>
-          <div class="mb-3">
-            <label for="daysPerWeek" class="form-label">Days Per Week</label>
-            <input type="text" class="form-control" id="daysPerWeek" name="daysPerWeek">
-          </div>
-          <div class="mb-3">
-            <label for="programDescription" class="form-label">Program Description</label>
-            <input type="text" class="form-control" id="programDescription" name="programDescription">
-          </div>
-          <div class="mb-3">
-            <label for="trainerID" class="form-label">Trainer ID</label>
-            <input type="text" class="form-control" id="trainerID" name="trainerID">
-          </div>
-          <div class="mb-3">
-            <label for="gymID" class="form-label">Gym ID</label>
-            <input type="text" class="form-control" id="gymID" name="gymID">
+            <label for="phone" class="form-label">Phone (xxx) xxx-xxxx</label>
+            <input type="text" class="form-control" id="phone" name="phone">
           </div>
             <input type="hidden" name="actionType" value="Add">
           <button type="submit" class="btn btn-primary">Add</button>
