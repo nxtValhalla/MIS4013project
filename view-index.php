@@ -10,7 +10,6 @@
             <div class="card-body text-center">
               <h5 class="card-title">The Origin Story</h5>
               <p class="card-text">This organization was formed by two students at the University of Oklahoma. Alexie Alexiev and Caled Albirini decided to take their passion for health and fitness to the next level. To make that happen, they developed training programs for people of all experience levels, regardless of their progress in their fitness journey. This website will allow to you access information about these programs, including the goal of each workout plan, the locations where training is hosted, and each trainer's contact information. Feel free to reach out to them by accessing their contact info on the "Meet Our Trainers" page!</p>
-            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
             </div>
           </div>
           <div class="col-md-3 d-flex align-items-center justify-content-center">
