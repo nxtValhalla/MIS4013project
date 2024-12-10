@@ -4,9 +4,6 @@
                 <div class="col d-flex justify-content-start align-items-center">
                   <h1>Contact Us!</h1>
                 </div>
-                <div class="col d-flex justify-content-center align-items-center">
-                  <button type="button" class="btn btn-outline-success" onclick="scrollToTop()"><i class="bi bi-arrow-bar-up"></i> Scroll to Top <i class="bi bi-arrow-bar-up"></i></button>
-                </div>
                 <div class="col d-flex justify-content-end align-items-center">
                   <?php include "view-trainers-addform.php"; ?>
                   <h2 class="ms-3">Add a New Trainer</h2>
