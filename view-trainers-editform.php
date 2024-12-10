@@ -18,7 +18,7 @@
         <form method="post" action="">
           <div class="mb-3">
             <label for="trainerName<?php echo $trainer['TrainerID'];?>" class="form-label">Trainer Name</label>
-            <input type="text" class="form-control" id="trainerName<?php echo $trainer['TrainerID'];?>" name="trainerName" value="<?php echo $trainer['TrainerID'];?>">
+            <input type="text" class="form-control" id="trainerName<?php echo $trainer['TrainerID'];?>" name="trainerName" value="<?php echo $trainer['TrainerName'];?>">
           </div>
           <div class="mb-3">
             <label for="spec<?php echo $trainer['TrainerID'];?>" class="form-label">Specialization</label>
