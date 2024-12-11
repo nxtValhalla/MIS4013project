@@ -3,7 +3,7 @@
 while ($trainerItem = $trainerList -> fetch_assoc()) {
   $selText = "";
   if ($selectedTrainer == $trainerItem['TrainerID']) {
-    $selText = "selected";
+    $selText = " selected";
   }
 ?>
   <option value="<?php echo $trainerItem['TrainerID']; ?>"<?$selText?>><?php echo $trainerItem['TrainerName']; ?></option>
