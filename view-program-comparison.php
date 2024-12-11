@@ -1,4 +1,4 @@
-<div class="hero">
+<div class="hero" style="align-items:none;">
 <div class="container mt-4">
     <h1>Program Stats Comparison</h1>
     
