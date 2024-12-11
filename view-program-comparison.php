@@ -49,7 +49,7 @@
     /* Chart Container Styling */
     #programStatsChart {
         max-width: 100%;
-        height: 400px;
+        height: 800px;
         margin: 0 auto;
         border-radius: 10px;
         border: 2px solid rgba(0, 0, 0, 0.1);
@@ -58,15 +58,6 @@
     #programStatsChart:hover {
         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
         cursor: pointer;
-    }
-
-    /* Text Styling for Chart Title */
-    .card-body h1 {
-        font-size: 2rem;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 20px;
-        text-transform: uppercase;
     }
 </style>
     <!-- Radar chart for program stats comparison -->
