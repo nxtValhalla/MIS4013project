@@ -15,6 +15,11 @@
       <tbody>
   <?php
   while ($address = $addressbyprogram->fetch_assoc()){
+    $latitude = $address['Latitude'];
+    $longitude = $address['Longitude'];
+    $gymID = $address['GymID'];
+    $gymName = htmlspecialchars($address['GymName'], ENT_QUOTES);
+    $addressText = $address['Address'] . ", " . $address['City'] . ", " . $address['State'] . " " . $address['ZipCode'];
   ?>
     <tr>
       <td><?php echo $address['GymID']; ?></td>
@@ -24,29 +29,20 @@
       <td><?php echo $address['State']; ?></td>
       <td><?php echo $address['ZipCode']; ?></td>
     </tr>
-  <?php
-    $latitude = $address['Latitude'];
-    $longitude = $address['Longitude'];
-    $gymID = $address['GymID'];
-    $gymName = htmlspecialchars($address['GymName'], ENT_QUOTES);
-  }
-  ?>
+    <tr>
+      <td colspan="6">
+        <div id="map-<?php echo $gymID; ?>" style="width:100%;height:400px;"></div>
+        <script>
+          addMap('map-<?php echo $gymID; ?>', <?php echo $latitude; ?>, <?php echo $longitude; ?>, '<?php echo $gymName; ?>');
+        </script>
+      </td>
+    </tr>
+        <?php } ?>
       </tbody>
     </table>
   </div>
-  <div id="map-<?php echo $gymID; ?>" style="width:100%;height:400px;"></div>
 </div>
- <!-- Dynamically generate maps for each gym -->
-  <?php
-    echo "<div class='gym-details'>";
-    echo "<h2>{$gymName}</h2>";
-    echo "<p>{$addressbyprogram['Address']}, {$addressbyprogram['City']}, {$addressbyprogram['State']} {$addressbyprogram['ZipCode']}</p>";
-    echo "<div id='map-{$gymID}' style='width:100%;height:400px;'></div>";
-    echo "<script>
-            addMap('map-{$gymID}', $latitude, $longitude, '$gymName');
-          </script>";
-    echo "</div>";
-  ?>
+
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
   function addMap(containerId, latitude, longitude, gymName) {
