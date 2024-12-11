@@ -29,7 +29,10 @@
     </div>
 
     <!-- Radar chart for program stats comparison -->
-    <canvas id="programStatsChart"></canvas>
+    <div class="card-body">
+        <canvas id="programStatsChart"></canvas>
+    </div>
+
 </div>
 </div>
 
