@@ -95,7 +95,7 @@
                 legend: {
                     position: 'top',
                     labels: {
-                        boxWidth: 25,
+                        boxWidth: 20,
                     }
                 },
                 title: {
@@ -117,7 +117,7 @@
                     pointLabels: {
                         font: {
                             size: 16
-                        }
+                        },
                         color: '#000000'
                     }
                 }
