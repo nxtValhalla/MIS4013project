@@ -30,7 +30,7 @@
 <style>
     /* Card Styling */
     .card-body {
-        background-color: #A2A1A3;
+        background-color: #f8f9fa;
         border-radius: 10px;
         padding: 30px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -42,7 +42,7 @@
         border-radius: 15px;
         overflow: hidden;
         border: none;
-        background-color: #fff;
+        background-color: #A2A1A3;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
