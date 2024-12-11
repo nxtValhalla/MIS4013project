@@ -30,7 +30,7 @@
 <style>
     /* Card Styling */
     .card-body {
-        background-color: #f8f9fa;
+        background-color: #A2A1A3;
         border-radius: 10px;
         padding: 30px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -42,15 +42,16 @@
         border-radius: 15px;
         overflow: hidden;
         border: none;
-        background-color: #A2A1A3;
+        background-color: #fff;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     /* Chart Container Styling */
     #programStatsChart {
         max-width: 100%;
-        height: 650px;
+        height: 600px;
         margin: 0 auto;
+        background-color: white;
         border-radius: 10px;
         border: 2px solid rgba(0, 0, 0, 0.1);
     }
