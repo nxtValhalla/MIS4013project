@@ -33,6 +33,14 @@
 </div>
 </div>
 
+<style>
+    #programStatsChart {
+        max-width: 1400px;
+        max-height: 1000px;
+        margin: 0 auto;
+    }
+</style>
+
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
     // Convert PHP program data to JavaScript
