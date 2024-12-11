@@ -25,21 +25,19 @@
       <td><?php echo $address['ZipCode']; ?></td>
     </tr>
   <?php
+    $latitude = $address['Latitude'];
+    $longitude = $address['Longitude'];
+    $gymID = $address['GymID'];
+    $gymName = htmlspecialchars($address['GymName'], ENT_QUOTES);
   }
   ?>
       </tbody>
     </table>
   </div>
-  <div id="map-container"></div>
+  <div id="map-<?php echo $gymID; ?>" style="width:100%;height:400px;"></div>
 </div>
  <!-- Dynamically generate maps for each gym -->
   <?php
-  // Reset and iterate through results again for map generation
-  $addressbyprogram->data_seek(0); // Reset the pointer for reuse
-    $latitude = $addressbyprogram['Latitude'];
-    $longitude = $addressbyprogram['Longitude'];
-    $gymID = $addressbyprogram['GymID'];
-    $gymName = htmlspecialchars($addressbyprogram['GymName'], ENT_QUOTES);
     echo "<div class='gym-details'>";
     echo "<h2>{$gymName}</h2>";
     echo "<p>{$addressbyprogram['Address']}, {$addressbyprogram['City']}, {$addressbyprogram['State']} {$addressbyprogram['ZipCode']}</p>";
