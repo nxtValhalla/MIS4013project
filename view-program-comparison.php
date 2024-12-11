@@ -48,10 +48,10 @@
 
     /* Chart Container Styling */
     #programStatsChart {
-        max-width: 115%;
+        width: 700px;
         height: 600px;
         margin: 0 auto;
-        background-color: white;
+        background-color: #FFFFFF;
         border-radius: 10px;
         border: 2px solid rgba(0, 0, 0, 0.1);
     }
