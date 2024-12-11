@@ -40,7 +40,6 @@ if (isset($_POST['actionType'])) {
 }
 
 $programs = selectPrograms();
-include "js-scroll-to-top.php";
 include "view-programs.php";
 include "view-footer.php";
 ?>
