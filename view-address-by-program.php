@@ -36,13 +36,13 @@
   <?php
   // Reset and iterate through results again for map generation
   $addressbyprogram->data_seek(0); // Reset the pointer for reuse
-    $latitude = $address['Latitude'];
-    $longitude = $address['Longitude'];
-    $gymID = $address['GymID'];
-    $gymName = htmlspecialchars($address['GymName'], ENT_QUOTES);
+    $latitude = $addressbyprogram['Latitude'];
+    $longitude = $addressbyprogram['Longitude'];
+    $gymID = $addressbyprogram['GymID'];
+    $gymName = htmlspecialchars($addressbyprogram['GymName'], ENT_QUOTES);
     echo "<div class='gym-details'>";
     echo "<h2>{$gymName}</h2>";
-    echo "<p>{$address['Address']}, {$address['City']}, {$address['State']} {$address['ZipCode']}</p>";
+    echo "<p>{$addressbyprogram['Address']}, {$addressbyprogram['City']}, {$addressbyprogram['State']} {$addressbyprogram['ZipCode']}</p>";
     echo "<div id='map-{$gymID}' style='width:100%;height:400px;'></div>";
     echo "<script>
             addMap('map-{$gymID}', $latitude, $longitude, '$gymName');
