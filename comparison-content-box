@@ -1,0 +1,24 @@
+/* Custom styles for header */
+.comp {
+  height: auto; /* Hero section height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Optional: Overlay on hero section for better readability */
+.comp::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay for better contrast */
+  z-index: -1; /* Ensure it sits behind the text */
+}
