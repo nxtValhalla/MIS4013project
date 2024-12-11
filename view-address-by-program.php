@@ -31,7 +31,7 @@
     </tr>
     <tr>
       <td colspan="6">
-        <div id="map-<?php echo $gymID; ?>" style="width:100%;height:400px;"></div>
+        <div id="map-<?php echo $gymID; ?>" style="width:100%;height:600px;"></div>
         <script>
           addMap('map-<?php echo $gymID; ?>', <?php echo $latitude; ?>, <?php echo $longitude; ?>, '<?php echo $gymName; ?>');
         </script>
