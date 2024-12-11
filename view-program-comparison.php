@@ -95,15 +95,16 @@
                 legend: {
                     position: 'top',
                     labels: {
-                        boxWidth: 20,
+                        boxWidth: 25,
                     }
                 },
                 title: {
                     display: true,
                     text: 'Program Comparison',
                     font: {
-                        size: 16
-                    }
+                        size: 20
+                    },
+                    color: '#000000'
                 }
             },
             scales: {
@@ -115,8 +116,9 @@
                     },
                     pointLabels: {
                         font: {
-                            size: 14
+                            size: 16
                         }
+                        color: '#000000'
                     }
                 }
             }
