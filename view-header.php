@@ -37,3 +37,4 @@
     </div>
   </div>
 </nav>
+<?php include "js-scroll-to-top.php"; ?>
