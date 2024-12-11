@@ -48,7 +48,7 @@
 
     /* Chart Container Styling */
     #programStatsChart {
-        max-width: 100%;
+        max-width: 115%;
         height: 600px;
         margin: 0 auto;
         background-color: white;
