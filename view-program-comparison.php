@@ -85,7 +85,7 @@
     const radarChart = new Chart(ctx, {
         type: 'radar',
         data: {
-            labels: ['Days Per Week', 'Difficulty Level', 'Intensity'],
+            labels: ['Days Per Week', 'Difficulty', 'Intensity'],
             datasets: []
         },
         options: {
