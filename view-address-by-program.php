@@ -30,7 +30,8 @@
       </tbody>
     </table>
   </div>
-
+  <div id="map-container"></div>
+</div>
  <!-- Dynamically generate maps for each gym -->
   <?php
   // Reset and iterate through results again for map generation
@@ -66,4 +67,3 @@
       .openPopup();
   }
 </script>
-</div>
