@@ -30,7 +30,7 @@
 <style>
     /* Card Styling */
     .card-body {
-        background-color: #f8f9fa;
+        background-color: #A2A1A3;
         border-radius: 10px;
         padding: 30px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -49,7 +49,7 @@
     /* Chart Container Styling */
     #programStatsChart {
         max-width: 100%;
-        height: 800px;
+        height: 650px;
         margin: 0 auto;
         border-radius: 10px;
         border: 2px solid rgba(0, 0, 0, 0.1);
@@ -108,6 +108,7 @@
             scales: {
                 r: {
                     min: 0,
+                    max: 7,
                     ticks: {
                         stepSize: 1 // Adjust as per your data range
                     },
