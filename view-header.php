@@ -9,11 +9,11 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 sticky-header">
   <div class="container-fluid">
-    <a class="navbar-brand me-auto" href="#">Directory</a>
+    <a class="navbar-brand me-3" href="#">Directory</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -32,7 +32,7 @@
         </li>
       </ul>
     </div>
-    <div class="ms-auto">
+    <div class="ms-3">
       <button type="button" class="btn btn-outline-success" onclick="scrollToTop()"><i class="bi bi-arrow-bar-up"></i> Scroll to Top <i class="bi bi-arrow-bar-up"></i></button>
     </div>
   </div>
