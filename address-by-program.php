@@ -10,6 +10,7 @@ include "view-header.php";
     <link rel="stylesheet" href="page-heading.css">
     <link rel="stylesheet" href="content-box.css">
     <link rel="stylesheet" href="sticky-header.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <h1 class="page-header">Gym Address</h1>
 
 <?php
