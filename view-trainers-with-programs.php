@@ -11,7 +11,10 @@
     ?>
       <div class="card mb-4">
         <div class="card-body">
-          <h5 class="card-title">ID: <?php echo $trainer['TrainerID']; ?> - Name: <?php echo $trainer['TrainerName']; ?></h5>
+          <div class="d-flex justify-content-between align-items-center">
+            <h5 class="card-title mb-0">ID: <?php echo $trainer['TrainerID']; ?> - Name: <?php echo $trainer['TrainerName']; ?></h5>
+            <span class="text-muted ms-3"><small>Specialization: <?php echo htmlspecialchars($trainer['Specialization']); ?></small></span>
+          </div>
           <div class="accordion" id="<?php echo $accordionId; ?>">
             <?php
             $counter = 1;
@@ -57,7 +60,6 @@
             ?>
           </div>
         </div>
-        <p class="card-text"><small class="text-body-secondary">Specialization: <?php echo $trainer['Specialization']; ?></small></p>
       </div>
     <?php
     }
