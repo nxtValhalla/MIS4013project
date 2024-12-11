@@ -1,7 +1,7 @@
 <div class="hero">
   <h1>Gym Name and Address</h1>
-  <div class="table-responsive">
-    <table class="table">
+  <div class="table-responsive" style="width: 80%;">
+    <table class="table" style="width: 100%;">
       <thead>
         <tr>
         <th>Gym ID</th>
