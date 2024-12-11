@@ -31,6 +31,23 @@
     </table>
   </div>
 
+ <!-- Dynamically generate maps for each gym -->
+  <?php
+  // Reset and iterate through results again for map generation
+  $addressbyprogram->data_seek(0); // Reset the pointer for reuse
+    $latitude = $address['Latitude'];
+    $longitude = $address['Longitude'];
+    $gymID = $address['GymID'];
+    $gymName = htmlspecialchars($address['GymName'], ENT_QUOTES);
+    echo "<div class='gym-details'>";
+    echo "<h2>{$gymName}</h2>";
+    echo "<p>{$address['Address']}, {$address['City']}, {$address['State']} {$address['ZipCode']}</p>";
+    echo "<div id='map-{$gymID}' style='width:100%;height:400px;'></div>";
+    echo "<script>
+            addMap('map-{$gymID}', $latitude, $longitude, '$gymName');
+          </script>";
+    echo "</div>";
+  ?>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script>
   function addMap(containerId, latitude, longitude, gymName) {
@@ -49,23 +66,4 @@
       .openPopup();
   }
 </script>
- <!-- Dynamically generate maps for each gym -->
-  <?php
-  // Reset and iterate through results again for map generation
-  $addressbyprogram->data_seek(0); // Reset the pointer for reuse
-  while ($row = $addressbyprogram->fetch_assoc()) {
-    $latitude = $row['Latitude'];
-    $longitude = $row['Longitude'];
-    $gymID = $row['GymID'];
-    $gymName = htmlspecialchars($row['GymName'], ENT_QUOTES);
-    echo "<div class='gym-details'>";
-    echo "<h2>{$gymName}</h2>";
-    echo "<p>{$row['Address']}, {$row['City']}, {$row['State']} {$row['ZipCode']}</p>";
-    echo "<div id='map-{$gymID}' style='width:100%;height:400px;'></div>";
-    echo "<script>
-            addMap('map-{$gymID}', $latitude, $longitude, '$gymName');
-          </script>";
-    echo "</div>";
-  }
-  ?>
 </div>
