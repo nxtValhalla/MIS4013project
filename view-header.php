@@ -26,6 +26,9 @@
         <li class="nav-item">
           <a class="nav-link" href="trainers-with-programs.php">Who Trains What?</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="program-comparison.php">Compare Programs</a>
+        </li>
       </ul>
     </div>
   </div>
