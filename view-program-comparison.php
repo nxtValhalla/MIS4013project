@@ -1,6 +1,6 @@
 <div class="hero">
 <div class="container mt-4">
-    <h1>Program Stats Comparison</h1>
+    <h1>Compare Programs to Find Your Fit!</h1>
     
     <!-- Dropdowns for selecting programs -->
     <div class="row mb-4">
