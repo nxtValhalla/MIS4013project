@@ -43,21 +43,3 @@
   </div>
 </div>
 
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script>
-  function addMap(containerId, latitude, longitude, gymName) {
-    // Initialize Leaflet map
-    const map = L.map(containerId).setView([latitude, longitude], 15);
-
-    // Add OpenStreetMap tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors',
-    }).addTo(map);
-
-    // Add a marker to the map
-    L.marker([latitude, longitude])
-      .addTo(map)
-      .bindPopup(gymName)
-      .openPopup();
-  }
-</script>
